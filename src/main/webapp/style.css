@@ -1,0 +1,107 @@
+@charset "UTF-8";
+	
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,wght@0,700;1,400&family=Ubuntu:ital,wght@1,700&display=swap');
+
+
+
+
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.agenda{
+	right: 300px;
+	height: 500px;
+	background: #2285c6;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+h1{
+	color:fff ;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.botao{
+	text-decoration: none;
+	background: #43adf1;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border: 0;
+	margin-bottom: 30px;
+	cursor:pointer;
+}
+
+.caixa1 , .caixa2{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #43adf1;
+	border-radius: 5px;
+}
+
+.caixa3{
+	width: 320px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #ff0000;
+	border-radius: 5px;
+}
+
+
+.novo{
+	margin: 0 auto;
+	text-align: justify
+	
+	
+}
+
+#tabela{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: justify;
+	margin: 30px auto;
+	border-collapse: collapse;
+	
+}
+
+#tabela th{
+	border: 1px solid  #ddd;
+	padding: 10px;
+	background: #43adf1;
+	color: #fff;
+	
+}
+
+#tabela td{
+	border: 1px solid  #ddd;
+	padding: 10px;
+	}
+	
+	
+	.botao1{
+	text-decoration: none;
+	background: #ff0000;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border: 0;
+	margin-bottom: 30px;
+	margin-left:10px;
+	cursor:pointer;
+}
+	
